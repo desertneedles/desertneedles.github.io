@@ -1,0 +1,126 @@
+h1 { font-family: 
+'Flamenco', Arial, cursive; 
+font-weight: 400; 
+color: #38150A;    
+}
+h2 { font-family:
+'Flamenco', Arial, cursive;
+font-weight: 400;
+color: #38150A;
+}
+/* Heading text on all pages 
+should match */
+p  {font-family: 
+'Flamenco', Arial, cursive;
+font-size: 22px;
+font-weight: 400; 
+color: #38150A;    
+}
+li {font-family: 
+'Flamenco', Arial, cursive;
+font-size: 22px;
+font-weight: 400; }
+.link {font-family: 
+'Flamenco', Arial, cursive;
+font-size: 22px;
+font-weight: 400; 
+text-align: center;    
+}
+/* Paragraph text on all pages
+should match */
+body {background-color: #C9A65D;}
+/* Background-color should be
+consistent on all pages */
+}
+div img {
+border: 5px #867363;
+border-style: solid;
+}
+div img {display: inline-block;
+}
+img {
+max-width: 100%;    
+height: auto;
+margin: auto;
+}
+<html>
+<head>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+<div class="img">
+<a target="_blank" href="Images/IMG_0562.jpg">
+<img src="Images/IMG_0562.jpg" alt="Jumping Cholla or Jumping Cactus (Scientific name: Opuntia fulgida)" width="300" height="200">
+</a>
+<div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+<a target="_blank" href="Images/IMG_0598.jpg">
+<img src="Images/IMG_0598.jpg" alt="Toothpick Cactus (Scientific Name: Stetsonia coryne)" width="300" height="200">
+</a>
+<div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+<a target="_blank" href="Images/IMG_0556.jpg">
+<img src="Images/IMG_0556.jpg" alt="Mescal or Agave (Scientific name: Agave parryi)" width="300" height="200">
+</a>
+<div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+<a target="_blank" href="Images/IMG_0592.jpg">
+<img src="Images/IMG_0592.jpg" alt="Spurge (Scientific name: Euphorbia confinalis)" width="300" height="200">
+</a>
+<div class="desc">Add a description of the image here</div>
+</div>
+/* All images must have borders
+throughout the site */
+.link { color: #546B86;
+        font-size: 12 px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}    
+/* The site's color scheme must convey dry, 
+earth tones reminiscent of desert landscapes */
