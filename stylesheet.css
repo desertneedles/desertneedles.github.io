@@ -122,5 +122,21 @@ li a {
 li a:hover {
     background-color: #111;
 }    
+/* unvisited link */
+a:link {
+color:blue;    
+}
+/* visited link */
+a:visited {
+color:black;
+}
+/* mouse over link */
+a:hover {
+color:yellow;
+}
+/* selected link */
+a:active {
+color:orange;
+}
 /* The site's color scheme must convey dry, 
 earth tones reminiscent of desert landscapes */
